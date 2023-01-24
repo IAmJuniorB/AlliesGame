@@ -10,6 +10,6 @@ def get_title(url):
     return soup.find('title').get_text()
     
 
-print(get_title("https://chat.openai.com/chat"))
+print(get_title("https://github.com"))
 
 print(get_title("https://yahoo.com/news"))
